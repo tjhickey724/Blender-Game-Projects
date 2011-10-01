@@ -1,0 +1,52 @@
+# The skybox object itself is free from AW's Megapath. The textures
+# were made by me, Lady NightHawk, and are copyright by me (Deb Murtagh)
+# all rights reserved. They were made in Terragen 0.9 on May 22, 2004. 
+# They are free for your # enjoyment! Contact me at dmurtagh27@hotmail.com 
+# if you need assistance. Please, these comment (#) lines MUST remain! 
+
+ModelBegin
+ ProtoBegin cube_0_0
+  TextureModes Lit Foreshorten
+  Transform 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 1. 1.
+  Vertex 1. -1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex -1. -1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex -1. -1. -1. UV 0. 1. Prelight 1 1 1
+  Vertex 1. -1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex 1. 1. -1. UV 0. 0. Prelight 1 1 1
+  Vertex 1. -1. -1. UV 0. 1. Prelight 1 1 1
+  Vertex -1. -1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. 1. -1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. 1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. -1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex 1. 1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. 1. 1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. -1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. 1. 1. UV 0. 1. Prelight 1 1 1
+  Vertex -1. 1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. 1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex 1. 1. -1. UV 0. 1. Prelight 1 1 1
+  Vertex -1. 1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. 1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex -1. 1. -1. UV 0. 1. Prelight 1 1 1
+  Color 1. 1. 1.
+  Opacity 1.
+  Textureaddressmode clamp
+  Texture lnhcanyon2_fr
+  Quad 7 20 19 13
+  Texture lnhcanyon2_rt
+  Quad 18 17 16 15
+  Texture lnhcanyon2_up
+  Quad 14 10 13 12
+  Texture lnhcanyon2_bk
+  Quad 11 6 10 9
+  Texture lnhcanyon2_dn
+  Quad 8 7 6 5
+  Texture lnhcanyon2_lt
+  Quad 4 3 2 1
+ ProtoEnd # cube_0_0
+ ClumpBegin
+  Rotate 1 0 0 -90
+  Scale .1 .1 .1
+  ProtoInstance cube_0_0
+ ClumpEnd
+ModelEnd
